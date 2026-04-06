@@ -2,7 +2,6 @@
 
 Uma calculadora simples e intuitiva para calcular gorjetas em restaurantes e bares. O usuário digita o valor da conta, escolhe a porcentagem da gorjeta e recebe na tela o valor da gorjeta separado do total a pagar.
 
----
 
 ## Como usar
 
@@ -12,7 +11,6 @@ Uma calculadora simples e intuitiva para calcular gorjetas em restaurantes e bar
 4. O valor da gorjeta e o total da conta aparecem na tela.
 5. Use o botão **Apagar** para corrigir o valor digitado caractere por caractere.
 
----
 
 ## Funcionalidades
 
@@ -23,15 +21,11 @@ Uma calculadora simples e intuitiva para calcular gorjetas em restaurantes e bar
 - Valores formatados em reais (R$).
 - Campos limpos automaticamente após o cálculo.
 
----
-
 ## Tecnologias utilizadas
 
 - HTML5
 - CSS3
 - JavaScript (ES6+)
-
----
 
 ## O que aprendi construindo esse projeto
 
@@ -46,4 +40,6 @@ Uma calculadora simples e intuitiva para calcular gorjetas em restaurantes e bar
 - Manipulação de strings com `.slice()`.
 - Lógica com `if/else`, `return` e variáveis de controle.
 
----
+
+## Visualize o projeto:
+Acesse: https://carlosedukj.github.io/Calculadora-de-Gorjeta/
