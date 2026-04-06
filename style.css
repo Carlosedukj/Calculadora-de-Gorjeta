@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(0deg, #575555, #b3c4ea);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Conteúdo principal - Ajustado para empilhar os itens */
+.items {
+  width: min(90%, 400px);
+  background-color: #fff;
+  padding: 1.8rem 2rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); 
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem; 
+}
+/* Título mais elegante */
+.title {
+  color: #002765;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+/* Estilização dos Inputs e Selects */
+input,
+select {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border: 2px solid #9a9b9c;
+  border-radius: 0.8rem;
+  outline: none;
+  font-size: 1rem;
+  transition: 0.3s;
+  background-color: #f8f9fa;
+}
+
+input:focus,
+select:focus {
+  border-color: #386de0;
+  background-color: #fff;
+}
+
+/* Label para os campos */
+label {
+  font-size: 0.9rem;
+  color: #383737;
+  justify-content: center;
+  display: flex;
+  margin-bottom: -1rem; /* Aproxima a label do campo */
+  font-weight: 500;
+  margin-top: -20px;
+}
+
+#tip {
+  text-align-last: center;
+}
+
+button {
+  border: none;
+  color: #fff;
+  padding: 0.8rem;
+  background: #386de0;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 0.8rem;
+  transition: 0.3s;
+}
+
+#delete {
+  background-color: #ef4444; 
+}
+
+#delete:hover {
+  background-color: #a50606;
+}
+
+#calcular:hover {
+  background-color: #00277c;
+}
+
+button:hover {
+  filter: brightness(0.9);
+  transform: scale(1.04);
+}
+
+/* Estilização dos resultados */
+#result-tip,
+#sum-total {
+  text-align: center;
+  font-weight: 600;
+  color: #063d96;
+  font-size: 1.1rem;
+  margin-top: -10px;
+  white-space: nowrap;
+}
+
+#sum-total {
+  font-size: 1.4rem;
+  color: #10b981; 
+  margin-top: -20px;
+}
+
+#error-message {
+  padding: 0;
+  margin-top: -15px;
+  right: 500px;
+  color: #f00;
+  font-size: 0.8rem;
+  padding-left: 5px;
+}
+
+#error-message2 {
+  padding: 0;
+  margin-top: -15px;
+  text-align: left;
+  right: 500px;
+  color: #f00;
+  font-size: 0.8rem;
+  padding-left: 5px;
+}
